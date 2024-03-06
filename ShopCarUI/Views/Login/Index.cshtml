@@ -1,0 +1,60 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("form").validate({
+                rules: {
+                    UName: { required: true },
+                    UPwd: { required: true },
+                },
+                messages: {
+                    UName: { required: "用户名不能为空" },
+                    UPwd: { required: "密码不能为空" },
+                }
+            });
+        });
+
+        function Success(res) {
+            if (res != " ") {
+                alert("登录成功");
+                if (res == "1") {
+                    window.location.href = "/User/Index";
+                } else {
+                    window.location.href = "/Admin/Index";
+                }
+            } else {
+                alert("用户名或密码错误！");
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    @using (Ajax.BeginForm("CheckLogin", "Login", new AjaxOptions
+    {
+        HttpMethod = "post",
+        OnSuccess = "Success"
+    }))
+    {
+        @Html.Label("用户名：")@Html.TextBox("UName")<br />
+        @Html.Label("密 码：")@Html.TextBox("UPwd")<br />
+        <input type="submit" value="提交"/>
+        <input type="reset" value="重置"/>
+
+    }
+
+
+</body>
+</html>

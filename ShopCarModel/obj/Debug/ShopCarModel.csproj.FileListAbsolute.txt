@@ -1,0 +1,15 @@
+C:\VSProjects\ShopCarManager\ShopCarModel\bin\Debug\ShopCarModel.dll
+C:\VSProjects\ShopCarManager\ShopCarModel\bin\Debug\ShopCarModel.pdb
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarModel.csproj.AssemblyReference.cache
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarModel.csproj.CoreCompileInputs.cache
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarModel.dll
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarModel.pdb
+C:\VSProjects\ShopCarManager\ShopCarModel\bin\Debug\ShopCarModel.dll.config
+C:\VSProjects\ShopCarManager\ShopCarModel\bin\Debug\EntityFramework.dll
+C:\VSProjects\ShopCarManager\ShopCarModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSProjects\ShopCarManager\ShopCarModel\bin\Debug\EntityFramework.xml
+C:\VSProjects\ShopCarManager\ShopCarModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarM.125B84ED.Up2Date
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarModel.Migrations.InitialCreate.resources
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarModel.csproj.GenerateResource.cache
+C:\VSProjects\ShopCarManager\ShopCarModel\obj\Debug\ShopCarModel.Migrations.requiredOremake.resources

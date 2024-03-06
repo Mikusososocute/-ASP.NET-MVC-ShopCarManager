@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VSProjects\\ShopCarManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38A6FE5A-1569-4786-A6A1-9D72A3AA8027}|ShopCarUI\\ShopCarUI.csproj|c:\\vsprojects\\shopcarmanager\\shopcarui\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38A6FE5A-1569-4786-A6A1-9D72A3AA8027}|ShopCarUI\\ShopCarUI.csproj|solutionrelative:shopcarui\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59666A8E-06D6-4B0E-88DC-CD14FCB085B7}|ShopCarDAL\\ShopCarDAL.csproj|c:\\vsprojects\\shopcarmanager\\shopcardal\\basedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59666A8E-06D6-4B0E-88DC-CD14FCB085B7}|ShopCarDAL\\ShopCarDAL.csproj|solutionrelative:shopcardal\\basedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseDAL.cs",
+              "DocumentMoniker": "C:\\VSProjects\\ShopCarManager\\ShopCarDAL\\BaseDAL.cs",
+              "RelativeDocumentMoniker": "ShopCarDAL\\BaseDAL.cs",
+              "ToolTip": "C:\\VSProjects\\ShopCarManager\\ShopCarDAL\\BaseDAL.cs",
+              "RelativeToolTip": "ShopCarDAL\\BaseDAL.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAApwBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:05:33.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\VSProjects\\ShopCarManager\\ShopCarUI\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopCarUI\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\VSProjects\\ShopCarManager\\ShopCarUI\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "ShopCarUI\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T15:05:30.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

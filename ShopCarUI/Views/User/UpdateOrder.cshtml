@@ -1,0 +1,58 @@
+﻿@model ShopCarModel.OrderInfo
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateOrder</title>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("form").validate({
+                rules: {
+                    CId: { required: true },
+                    ONumber: { required: true,digits:true},
+                    /*ORemark: { required: true },*/
+
+                },
+                messages: {
+                    CId: { required: "车辆选择不能为空" },
+                    ONumber: { required: "数量不能为空",digits:"数量必须为整形"},
+                   /* ORemark: { required: "备注不能为空" },*/
+                }
+            });
+        });
+
+        function Success(res) {
+            if (res = "ok") {
+                alert("修改成功！");
+                window.location.href = "/User/Index";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    @using (Ajax.BeginForm("SubUpdateOrder", "User", new AjaxOptions
+    {
+        HttpMethod = "post",
+        OnSuccess = "Success"
+    }))
+    {
+        @Html.Hidden("OId", Model.OId);
+        @Html.Label("车辆：")@Html.DropDownList("CId")<br />
+        @Html.Label("数量：")@Html.TextBox("ONumber")<br />
+        @Html.Label("备注：")@Html.TextArea("ORemark")<br />
+        <input type="submit" value="修改" />
+        <input type="reset" value="重置" />
+
+    }
+
+    </body>
+</html>

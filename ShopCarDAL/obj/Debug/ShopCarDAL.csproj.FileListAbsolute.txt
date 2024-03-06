@@ -1,0 +1,15 @@
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\ShopCarDAL.dll
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\ShopCarDAL.pdb
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\ShopCarModel.dll
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\ShopCarModel.pdb
+C:\VSProjects\ShopCarManager\ShopCarDAL\obj\Debug\ShopCarDAL.csproj.AssemblyReference.cache
+C:\VSProjects\ShopCarManager\ShopCarDAL\obj\Debug\ShopCarDAL.csproj.CoreCompileInputs.cache
+C:\VSProjects\ShopCarManager\ShopCarDAL\obj\Debug\ShopCarDAL.csproj.Up2Date
+C:\VSProjects\ShopCarManager\ShopCarDAL\obj\Debug\ShopCarDAL.dll
+C:\VSProjects\ShopCarManager\ShopCarDAL\obj\Debug\ShopCarDAL.pdb
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\ShopCarModel.dll.config
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\EntityFramework.xml
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\ShopCarDAL.dll.config
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\EntityFramework.dll
+C:\VSProjects\ShopCarManager\ShopCarDAL\bin\Debug\EntityFramework.SqlServer.dll

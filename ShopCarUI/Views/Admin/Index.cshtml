@@ -1,0 +1,39 @@
+﻿@model List<ShopCarModel.UserInfo>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>管理员</title>
+</head>
+<body>
+    <table  border="1" cellspacing="0">
+        <tr>
+            <td align="center" colspan="9">
+                <a href="/Admin/AddUser">新增用户</a>
+            </td>
+        </tr>
+        <tr>
+            <th>用户Id</th>
+            <th>账户</th>
+            <th>真实姓名</th>
+            <th>操作</th>
+        </tr>
+        @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.UId</td>
+                    <td>@item.UName</td>
+                    <td>@item.URealName</td>
+                    <td>
+                        <a href="/Admin/ShowOrder/@item.UId">查看订单</a>
+                    </td>
+                </tr>
+            }
+    </table>
+</body>
+</html>

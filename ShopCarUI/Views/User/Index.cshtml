@@ -1,0 +1,70 @@
+﻿@model List<ShopCarModel.OrderInfo>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>用户</title>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <tr>
+            <td align="center" colspan="9">
+                <a href="/User/AddOrder">新增</a>
+            </td>
+        </tr>
+        <tr>
+            <th>订单号</th>
+            <th>车名</th>
+            <th>购买人</th>
+            <th>数量</th>
+            <th>总价</th>
+            <th>购买时间</th>
+            <th>备注</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @{string state = item.OState == 0 ? "已下单" : "已完成";}
+                <td>@item.OId</td>
+                <td>@item.CarInfo.CName</td>
+                <td>@item.UserInfo.URealName</td>
+                <td>@item.ONumber</td>
+                <td>@item.OPrice</td>
+                <td>@item.DateTime</td>
+                <td>@item.ORemark</td>
+                <td>@state</td>
+                <td>
+                    @if (state == "已下单")
+                    {
+                        <a href="/User/UpdateOrder/@item.OId">修改</a>
+                        <a class="deleteLink" oid="@item.OId" href="javascript:;">删除</a>
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+    <script type="text/javascript">
+        $(function () {
+            $('.deleteLink').click(function () {
+                var oid = $(this).attr('oid');
+                if (confirm('确定删除？')) {
+                    $.post('/User/DeleteOrder', { id: oid }, function (res) {
+                        if (res == 'ok') {
+                            alert('删除成功！');
+                            window.location.reload();
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
