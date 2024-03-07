@@ -1,4 +1,4 @@
-基于ASP.net mvc5+entityframework6的一个车辆商店管理系统，目标框架为.net framework 4.5，数据库为sql service，前端采用jQuery设计。
+基于ASP.net mvc5+entityframework6的一个车辆商店管理系统，目标框架为.net framework 4.5，数据库为sql server，前端采用jQuery设计。
 
 功能上设计较为简单，一个登录+增删查改管理系统，适合入门者学习或当期末作业。
 
